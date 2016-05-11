@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-hapi-web",
+  "version": "1.0.0",
+  "description": "node.js, hapi.js and other stuff",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "hapi",
+    "stuff"
+  ],
+  "author": "James Star <jamess.developer@gmail.com> (http://www.puffstream.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "15.0.1",
+    "react-dom": "15.0.1",
+    "react-redux": "4.4.4",
+    "react-router": "2.1.1",
+    "redux": "3.4.0"
+  }
+}
