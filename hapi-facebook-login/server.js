@@ -4,6 +4,10 @@ require('babel-register')({
   presets: ['es2015', 'react'],
 });
 
+const creds = require('./env');
+
+console.log("Creds: ", creds);
+
 const Hapi = require('hapi');
 
 // Create a server
@@ -89,8 +93,8 @@ server.register([{
         // Once you create your app, fill out Settings and set the App Domains
         // Under Settings >> Advanced, set the Valid OAuth redirect URIs to include http://<yourdomain.com>/bell/door
         // and enable Client OAuth Login
-        clientId: '137250183104811',
-        clientSecret: 'b966902d445fa0940fe40669d2808298',
+        clientId: creds.CLIENT_ID,
+        clientSecret: creds.CLIENT_SECRET,
         location: server.info.uri
     });
 

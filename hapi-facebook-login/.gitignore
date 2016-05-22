@@ -5,6 +5,9 @@
 logs
 *.log
 
+# Environment variables
+env.js
+
 # Runtime data
 pids
 *.pid
